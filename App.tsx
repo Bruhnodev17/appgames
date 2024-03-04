@@ -1,10 +1,11 @@
 import { Text, View } from 'react-native';
+import Header from './src/components/Header';
 import styles from "./AppStyles";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello world!</Text>
+      <Header/>
     </View>
   );
 }
