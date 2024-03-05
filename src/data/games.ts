@@ -73,18 +73,6 @@ const games: IGames[] = [
     },
 
     {
-        id: 6,
-        name: "The Witcher 3: Wild Hunt",
-        platform: "PlayStation 4",
-        genre: "Action RPG",
-        releaseDate: "2015-05-19",
-        rating: "Mature",
-        developer: "CD Projekt Red",
-        ratingScore: 4,
-        image: "https://cdn1.epicgames.com/offer/14ee004dadc142faaaece5a6270fb628/EGS_TheWitcher3WildHuntCompleteEdition_CDPROJEKTRED_S1_2560x1440-82eb5cf8f725e329d3194920c0c0b64f"
-    },
-
-    {
         id: 7,
         name: "Grand Theft Auto V",
         platform: "PlayStation 4",
@@ -360,17 +348,7 @@ const games: IGames[] = [
         ratingScore: 4.7,
         image: "https://images-na.ssl-images-amazon.com/images/I/81TWMO%2Bp3rL._SL1500_.jpg"
     },
-    {
-        id: 32,
-        name: "God of War",
-        platform: "PlayStation 4",
-        genre: "Action-Adventure",
-        releaseDate: "2018-04-20",
-        rating: "Mature",
-        developer: "Santa Monica Studio",
-        ratingScore: 4.9,
-        image: "https://images-na.ssl-images-amazon.com/images/I/71y%2Bt0OQFRL._SL1500_.jpg"
-    },
+
 ];
 
 

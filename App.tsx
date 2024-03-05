@@ -10,7 +10,6 @@ export default function App() {
 
   const [filteredGames, setFilteredGames] = useState<IGames[]>(games)
 
-
   return (
     <View style={styles.container}>
       <Header/>
