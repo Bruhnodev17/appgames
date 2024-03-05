@@ -2,11 +2,16 @@ import { View, Text, TextInput } from "react-native";
 import { useState } from "react";
 import styles from "./styles";
 
-function Header() {
+interface HeaderProps {
+    onFilterChange: (text: String)=> void;
+}
+
+function Header({onFilterChange}: HeaderProps) {
     const [filter, setFilter] = useState<string>("");
 
     const handleFilter = (text: string) => {
         setFilter(text);
+        onFilterChange(text);
     }
 
     return (

@@ -10,10 +10,15 @@ export default function App() {
 
   const [filteredGames, setFilteredGames] = useState<IGames[]>(games)
 
+  const handleFilterChange = (filterText: String) => {
+    const filtered = games.filter(game => game.name.toLowerCase().includes(filterText.toLowerCase()));
+    setFilteredGames(filtered);
+  }
+
   return (
     <View style={styles.container}>
-      <Header/>
-      <Gamelist games={filteredGames}/>
+      <Header onFilterChange={handleFilterChange} />
+      <Gamelist games={filteredGames} />
       <Footer />
     </View>
   );

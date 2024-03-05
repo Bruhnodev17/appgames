@@ -81,9 +81,9 @@ const games: IGames[] = [
         rating: "Mature",
         developer: "Rockstar North",
         ratingScore: 4.8,
-        image: "https://images-na.ssl-images-amazon.com/images/I/81oTaM1IHfL._SL1500_.jpg"
+        image: "https://viciados.net/wp-content/uploads/2023/12/GTA-5-Liberty-City-DLC-Rockstar-Games-GTA-4-IV-V-Grand-Theft-Auto-Niko-B-2024.webp"
     },
-    // Adicione mais jogos aqui
+
     {
         id: 8,
         name: "Super Mario Odyssey",
@@ -260,17 +260,7 @@ const games: IGames[] = [
         ratingScore: 4.9,
         image: "https://images-na.ssl-images-amazon.com/images/I/81YJZCvUxVL._SL1500_.jpg"
     },
-    {
-        id: 24,
-        name: "Minecraft",
-        platform: "PC",
-        genre: "Sandbox",
-        releaseDate: "2011-11-18",
-        rating: "Everyone 10+",
-        developer: "Mojang Studios",
-        ratingScore: 4.7,
-        image: "https://images-na.ssl-images-amazon.com/images/I/61R0zKqQ7GL._AC_SY679_.jpg"
-    },
+
     {
         id: 25,
         name: "Call of Duty: Warzone",
